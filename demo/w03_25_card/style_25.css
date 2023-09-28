@@ -52,3 +52,10 @@ body{
     background-color: rgba(104, 163, 255, 0.2);
     color: #68a3ff;
 }
+
+img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
