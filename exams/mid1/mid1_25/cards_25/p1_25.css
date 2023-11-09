@@ -52,15 +52,35 @@ body {
 }
 
 .card-1 {
-  border-color: var(--card-1-border);
+  border-color: #ff69a6;
 }
 
 .card-2 {
-  border-color: var(--card-2-border);
+  border-color: #69adff;
 }
 
 .card-3 {
-  border: var(--card-3-border);
+  border: #69ff99;
+}
+
+.card-4 {
+  border: #f369ff;
+}
+
+.card-5 {
+  border: #ff69a6;
+}
+
+.card-6 {
+  border: #ee69ff;
+}
+
+.card-7 {
+  border: #fa69ff;
+}
+
+.card-8 {
+  border: #69ffaa;
 }
 
 .img {
@@ -89,6 +109,26 @@ body {
   background: var(--card-3-background);
 }
 
+.card-4 .icon {
+  background: var(--card-3-background);
+}
+
+.card-5 .icon {
+  background: var(--card-3-background);
+}
+
+.card-6 .icon {
+  background: var(--card-3-background);
+}
+
+.card-7 .icon {
+  background: var(--card-3-background);
+}
+
+.card-8 .icon {
+  background: var(--card-3-background);
+}
+
 .btn {
   text-transform: capitalize;
   padding: 0.5rem 1rem;
@@ -110,6 +150,36 @@ body {
 }
 
 .btn-3 {
+  background: var(--card-3-background);
+  color: var(--card-3-color);
+  border: 1px solid var(--card-3-color);
+}
+
+.btn-4 {
+  background: var(--card-3-background);
+  color: var(--card-3-color);
+  border: 1px solid var(--card-3-color);
+}
+
+.btn-5 {
+  background: var(--card-3-background);
+  color: var(--card-3-color);
+  border: 1px solid var(--card-3-color);
+}
+
+.btn-6 {
+  background: var(--card-3-background);
+  color: var(--card-3-color);
+  border: 1px solid var(--card-3-color);
+}
+
+.btn-7 {
+  background: var(--card-3-background);
+  color: var(--card-3-color);
+  border: 1px solid var(--card-3-color);
+}
+
+.btn-8 {
   background: var(--card-3-background);
   color: var(--card-3-color);
   border: 1px solid var(--card-3-color);
