@@ -22,7 +22,7 @@ body {
 
   &-center {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     /* gap: 0.5rem; */
     width: var(--fluid-width);
     max-width: var(--max-width);
