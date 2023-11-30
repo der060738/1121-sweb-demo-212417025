@@ -121,3 +121,17 @@ Sidebar
 .show-sidebar {
     transform: translateX(0);
 }
+
+/*
+=============== 
+ICON
+===============
+*/
+
+.social-icons {
+    display: grid;
+    margin-top: 3rem;
+    width: 20rem;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
