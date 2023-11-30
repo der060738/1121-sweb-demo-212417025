@@ -8,10 +8,16 @@ const closeBtn = document.querySelector('#close-btn');
 
 navBtn.addEventListener('click', function () {
    sidebar.classList.add('show-sidebar');
+   navbar.classList.remove('navbar-fixed');
 });
 
 closeBtn.addEventListener('click', function() {
   sidebar.classList.remove('show-sidebar');
+  if (window.scrollY > 80) {
+    navbar.classList.add('navbar-fixed');
+  } else {
+    navbar.classList.remove('navbar-fixed');
+  }
 });
 
 // add fixed class to navbar
