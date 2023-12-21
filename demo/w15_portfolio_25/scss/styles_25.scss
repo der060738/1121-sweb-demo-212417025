@@ -296,11 +296,8 @@ Projects
     margin-bottom: 1.5rem;
   }
 
-  .projects-center {
-    display: grid;
-    place-items: center;
-
-    .project {
+  &-center {
+     .project {
        position: relative;
        margin-bottom: 2rem;
        background-color: var(--clr-primary-5);
@@ -314,6 +311,7 @@ Projects
         width: 100%;
         height: 100%;
         border: 0.25rem solid var(--clr-white);
+        border-radius: var(--radius);
         transition: var(--transition);
         opacity: 0;
        }
@@ -326,7 +324,7 @@ Projects
        &-img {
         height: 15rem;
         object-fit: cover;
-        border-radius: var(--radius);
+        border-radius: var(--border-radius);
         transition: var(--transition);
        }
 
@@ -357,6 +355,63 @@ Projects
 
 }
 
+@media screen and (min-width: 676px) {
+   .projects {
+     &-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2rem;
+     }
+   }
+  
+}
+
+@media screen and (min-width: 992px) {
+  .projects {
+    &-center {
+     grid-template-columns: repeat(3,1fr);
+    }
+  }
+ 
+}
+
+@media screen and (min-width: 1170px) {
+  .projects {
+    &-center {
+      grid-template-rows: 15rem 15rem;
+      gap: 1rem;
+      grid-template-areas: 
+        "a b b"
+        "a c d"
+      ;
+    }
+    .project-img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .project {
+      height: 100%;
+      width: 100%;
+    }
+
+    .project-1 {
+      grid-area: a;
+    }
+
+    .project-2 {
+      grid-area: b;
+    }
+
+    .project-3 {
+      grid-area: c;
+    }
+
+    .project-4 {
+      grid-area: d;
+    }
+  }
+ }
 
 /*
 =============== 
