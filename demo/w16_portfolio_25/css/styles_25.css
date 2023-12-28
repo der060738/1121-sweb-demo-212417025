@@ -298,6 +298,140 @@ p {
     font-size: 15px;
   }
 }
+.contact body {
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+.contact .h2 {
+  font-size: 25px;
+  text-align: left;
+  margin: 10px 0;
+}
+.contact .card_body {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+}
+.contact .card {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  width: 300px;
+  padding: 1px 1px;
+  margin: 32px auto;
+  border-radius: 10px;
+}
+.contact .card-1 {
+  border-color: #352e31;
+  display: flex;
+  flex-direction: column;
+}
+.contact .card-t {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact .card-t .left {
+  display: flex;
+  flex-direction: column;
+}
+.contact .card-t .left p {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-size: 10px;
+}
+.contact .card-t .right {
+  display: flex;
+  flex-direction: column;
+}
+.contact .card-t .right p {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-size: 10px;
+}
+.contact .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff69a6;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.contact .card-1 .icon {
+  background-color: #ff69a6;
+}
+.contact .card-2 .icon {
+  background-color: #68a3ff;
+}
+.contact .btn {
+  text-transform: capitalize;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: transparent;
+}
+.contact .btn-1 {
+  background-color: rgba(255, 105, 166, 0.2);
+  color: #ff69a6;
+}
+.contact .btn-2 {
+  background-color: rgba(104, 163, 255, 0.2);
+  color: #68a3ff;
+}
+.contact img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.contact .social-icons {
+  display: grid;
+  margin-top: 3rem;
+  width: 20rem;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+.contact .footer {
+  display: grid;
+  place-items: center;
+  padding-bottom: 1rem;
+}
+.contact .footer .social-icon {
+  margin-bottom: 1rem;
+}
+.contact .footer .social-icon {
+  color: var(--clr-primary-5);
+}
+.contact .footer .social-icon:hover {
+  color: var(--clr-primary-10);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .resume .container {
+    width: 95%;
+    height: auto;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .resume .main {
+    flex-direction: column;
+  }
+  .resume .left,
+  .resume .right {
+    flex: none;
+    width: 100%;
+  }
+  .resume .container {
+    width: 95%;
+    height: auto;
+  }
+  .resume h2 {
+    font-size: 15px;
+  }
+}
 /*
 =============== 
 Navbar
